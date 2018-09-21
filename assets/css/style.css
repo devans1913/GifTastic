@@ -1,0 +1,57 @@
+body {
+
+	background-image: url("../images/marvel.jpg");
+	margin: 0px;
+    padding: 0px;
+    font-family: 'Archivo Narrow', sans-serif;
+	font-size: 25px;
+}
+
+img {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 80%;
+    max-width: 80%;
+}
+
+
+.buttons-view{
+
+    margin: 30px 0px 30px 0px; 
+
+}
+
+.gifDiv {
+
+    margin-right: 20px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+.topic {
+
+    margin-right:5px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    color:black;
+
+}
+
+#add-topic {
+
+    background-color: whitesmoke; 
+    color: black;
+    margin-top: 10px;
+    margin-bottom:10px;
+
+}
+
+#topic-input {
+
+    width: 140px;
+    margin-top: 4px;
+    font-family: 'Archivo Narrow', sans-serif;
+    
+}
