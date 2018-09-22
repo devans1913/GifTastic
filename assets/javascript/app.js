@@ -46,7 +46,7 @@ function renderButtons () {
 };
 
 	function displayGifs (topic) {
-		// var topic = $(this).attr("data-name");
+		
 		topicGif = $(this).attr("data-name") ? $(this).attr("data-name") : topic;
 		var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topicGif + "&api_key=dc6zaTOxFJmzC&limit=10";
 
@@ -102,5 +102,5 @@ function renderButtons () {
 	$(document).on("click", ".topic", displayGifs);
 	$(document).on("click", ".play", playGif);
 
-//Running Code
+
 renderButtons();
