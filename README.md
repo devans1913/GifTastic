@@ -7,7 +7,7 @@ https://devans1913.github.io/gifTastic/
 
 ## Screen Shot
 ![Screen shot](assets/images/gifTastic.JPG)
-Submitting a new character will display gifs relating to that show, and append the artist selected. 
+Submitting a new character will display gifs relating to that character or movie, and append the artist/movie selected to the end of the array. 
 
 
 ## Technologies used
